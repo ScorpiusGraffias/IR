@@ -11,7 +11,7 @@ public class IRJava {
 		
 		Scanner in = new Scanner (System.in);
 		
-		System.out.print("Informe o salário: ");
+		System.out.print("Informe o salÃ¡rio: ");
 		salario = in.nextDouble();
 		
 		taxa = (salario > 1903.98 && salario < 2866.65) ? 7.5 :
@@ -26,9 +26,9 @@ public class IRJava {
 					(taxa == 27.5) ? (((salario * taxa) / 100) - 869.36) : 
 						0;
 					
-			System.out.println("O valor do imposto é: " + imposto);
+			System.out.println("O valor do imposto Ã©: " + imposto); // Exibe o valor do imposto.
 		
 
 	}
 
-}
+} // Fim da classe.
